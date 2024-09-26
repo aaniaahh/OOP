@@ -8,8 +8,9 @@
 *  Semester:        Fall 2024
 *
 *  Description:
-*       This program will perform mathematical operations on fractions. It will receive two fractions separated
-*  by a mathematical operator, then perform the operations, and provide the simplified fraction.
+*       This program will perform mathematical operations on fractions. It will 
+*       receive two fractions separatedby a mathematical operator, then perform 
+*       the operations, and provide the simplified fraction.
 *
 *  Files:
 *       Fraction.cpp   : driver program
@@ -41,49 +42,46 @@ void openFiles(ifstream& infile)
 }
 
 int main(int argc, char const* argv[]) {
-    // TODO: Design an input file that matches the format x/y operator i/j
-    // Example: 1/2 + 3/4 should output 5/4 or 1 and 1/4, depending on how you format the output.
-
 
     // access and open the infile streams
       ifstream infile;
       openFiles(infile);
      
-    // Example usage (students should implement actual logic)
+    // declare the variables
       Fraction frac1, frac2;
       char oper;
 
+    // read in the numbers from the infile
       while (infile >> frac1 >> oper >> frac2)
       {
-          cout << frac1 << oper << frac2;
+          cout << frac1 << oper << frac2; // print the fractions from infile
           Fraction result;
 
           if (oper == '+')
           {
               result = frac1 + frac2;  // This should call the overloaded + operator
-              cout << result << endl;
+              cout << result << endl; // print the results
           }
           else if (oper == '-')
           {
-              result = frac1 - frac2;
-              cout << result << endl;
+              result = frac1 - frac2; // This should call the overloaded - operator
+              cout << result << endl; // print the results
           }
           else if (oper == '*')
           {
-              result = frac1 * frac2;
-              cout << result << endl;
+              result = frac1 * frac2; // This should call the overloaded  operator
+              cout << result << endl; // print the results
           }
           else if (oper == '/')
           {
-              result = frac1 / frac2;
-              cout << result << endl;
+              result = frac1 / frac2; // This should call the overloaded / operator
+              cout << result << endl; // print the results
           }
           else
               cout << "Operator does not exist." << endl;
       }
 
-    
-
+   // close the input file
    infile.close();
     return 0;
 }
