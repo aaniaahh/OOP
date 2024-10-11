@@ -184,4 +184,3 @@ int Fraction::lcm(int a, int b)
     return lcmVal;
 
 }
-
