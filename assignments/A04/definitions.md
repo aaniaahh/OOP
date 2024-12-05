@@ -8,82 +8,97 @@
 
 ## Definitions:
 
-Abstract Classes:
+**Abstract Classes:**
+Classes that cannot be instantiated directly but **CAN** define abstract methods (methods without implementation) that derived classes must implement.
 
-Abstraction:
 
-Access Modifiers:
+**Abstraction:**
+The process of hiding implementation details and showing only the necessary features of an object. It simplifies complexity by providing a clear interface.
 
-Attributes:
 
-Class Variable:
+**Access Modifiers:**
 
-Classes and Objects:
+**Attributes:**
+Characteristics of an object, often represented as class variables.
 
-Collections and Iterators:
 
-Composition:
+**Class Variable:**
 
-Constructors:
+**Classes and Objects:**
 
-Design Patterns (e.g., Singleton, Factory, Observer):
+**Collections and Iterators:**
 
-Destructors:
+**Composition:**
 
-Encapsulation:
+**Constructors:**
 
-Exception Handling:
+**Design Patterns (e.g., Singleton, Factory, Observer):**
 
-File I/O in OOP:
+**Destructors:**
 
-Friends:
+**Encapsulation:**
 
-Generics:
+**Exception Handling:**
 
-Inheritance:
+**File I/O in OOP:**
 
-Instance Variable:
+**Friends:**
 
-Interfaces:
+**Generics:**
 
-Member Variable:
+**Inheritance:**
 
-Memory Management (Garbage Collection, Pointers):
+**Instance Variable:**
 
-Method Overloading:
+**Interfaces:**
+Define a contract for classes, specifying methods that **MUST** be implemented.
 
-Method:
 
-Multiple Inheritance:
+**Member Variable:**
 
-Multithreading in OOP (time permitting):
+**Memory Management (Garbage Collection, Pointers):**
 
-Object Relationships (Association, Aggregation, Composition):
+**Method Overloading:**
 
-Object-Oriented Design Principles:
+**Method:**
 
-Operator Overloading:
+**Multiple Inheritance:**
 
-Overloading:
+**Multithreading in OOP (time permitting):**
 
-Polymorphism:
+**Object Relationships (Association, Aggregation, Composition):**
 
-Properties:
+**Object-Oriented Design Principles:**
 
-Public:
+**Operator Overloading:**
 
-Private:
+**Overloading:**
 
-Protected:
+**Polymorphism:**
 
-SOLID Principles:
+**Properties:**
+Mechanisms to control access to attributes, often using getters and setters.
 
-Static (Methods and Variables):
 
-Templates:
+**Public:**
 
-Testing in OOP: Unit Testing: Test-Driven Development):
+**Private:**
 
-UML Diagrams and Modeling:
+**Protected:**
 
-Virtual:
+**Rule of Three:**
+
+
+**SOLID Principles:**
+
+**Static (Methods and Variables):**
+
+**Templates:**
+
+**Test-Driven Development:**
+
+**Unit Testing:**
+
+**UML Diagrams and Modeling:**
+
+**Virtual:**
